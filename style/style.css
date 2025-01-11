@@ -57,7 +57,7 @@ align-items: center;
     float: right;
     width: 475px;
     height: 400px;
-    background-image: url(/assets/hero.png);
+    background-image: url(./assets/hero.png);
     background-size: contain;
     background-repeat: no-repeat;
     

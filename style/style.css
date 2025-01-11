@@ -7,6 +7,8 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
 .parent{
     width:1280px;
     height: 560px;
@@ -60,11 +62,51 @@ align-items: center;
     background-image: url("../assets/hero.png");
     background-size: contain;
     background-repeat: no-repeat;
-    
 
-
-
+}
+.progress-section{
+    width: 1280px;
+    height: 325px;
     
 
 
 }
+.progress-content{
+    width: 1280px;
+    height: 245px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.progress{
+    width: 302px;
+    height: 245px;
+    border-radius: 16px;
+    background-color: azure;
+    padding: 24px;
+
+
+}
+.piller{
+    color: #0E0E0E;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+.power{
+    color: #0E0E0ECC;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.weak{
+    color: #0E0E0EB3;
+    font-weight: 400;
+    font-size: 16px;
+}
+.progress:hover{
+    background-color: #ff5763;
+    color: black;
+
+} 

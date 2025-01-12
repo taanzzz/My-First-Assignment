@@ -373,3 +373,113 @@ left: 488px;
     color: white;
     border: #006A50FF;
 }
+.click:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.give-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9f9f9FF;
+    box-shadow: 0 4px 6px rgba(0,0,0.0.1);
+    align-items: center;
+
+}
+.Today{
+    width: 1280px;
+    height: 48px;
+    color: #0E0E0EFF;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.help{
+    left: 0;
+    top: 72px;
+    width: 1280px;
+    height: 48px;
+    gap: 24px;
+    color: #0E0E0EB3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.taka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+
+}
+.number-btn{ left: 0;
+    top: 0;
+    width: 240px;
+    height: 128px;
+    border-radius: 16px;
+    background-color: #FFFFFFFF ;
+    border: #FFFFFFFF;
+    color: black;}
+
+.hang{
+    font-weight: bold;
+    font-size: 40;
+    color: #0E0E0ECC;
+
+
+}
+.other-amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+
+    
+}
+.one{
+    left: 422.5px;
+    top: 20px;
+    width: 187px;
+    height: 24px;
+    padding: 20px 422.5px;
+}
+.done{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.donation-button{
+    left: 564.5px;
+    top: 408px;
+    width: 151px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #006A50FF ;
+    color: white;
+    border: #006A50FF;
+    margin-top: 32px;
+    margin-bottom: 80px;
+
+}
+.donation-button:hover{
+    background-color: darkturquoise;
+
+}
+b{
+    font-weight: bold;
+    font-size: 40px;
+}
+.number-btn:hover{
+    background-color: #D3D3D3;
+    
+}
+.one:hover{
+    background-color: #D3D3D3;
+}

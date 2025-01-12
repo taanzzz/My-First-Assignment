@@ -235,12 +235,12 @@ height: auto;}
 }
 
 .speech{
-    position: absolute;
+    
 
     width: 1280px;
     height: 256px;
     text-align: left;
-    margin: 0 auto;
+    margin: 32px 0 80px 0;
     background-color: #f9f9f9FF;
     border-radius: 10px;
     padding: 24px;
@@ -265,4 +265,111 @@ letter-spacing: 0%;
 text-align: left;
 color: #0E0E0ECC;
 
+}
+.news{
+    width: 1280px;
+    height: 120px;
+    text-align: left;
+    margin: 80px 0 32px 0;
+    gap: 24px;
+    
+}
+.report{
+    color: #0E0E0EFF;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0%;
+    line-height: 0;
+    text-align: left;
+}
+.report-text{
+    color: #0E0E0EB3;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 24px;
+    text-align: left;
+
+}
+.satellite{
+    display: flex;
+    
+
+    width: 1280px;
+    height: 400px;
+    text-item: left;
+    margin: 0 0 24px 0;
+    background-color: #f9f9f9FF;
+    border-radius: 24px;
+    padding: 32px 48px;
+    box-shadow: 0 4px 6px rgba(0,0,0.0.1);
+    align-items: center;
+    
+}
+
+.earth{
+    left: 48px;
+    top: 48px;
+    width: 408px;
+    height: 306px;
+    margin: 48px 48px 48px 48px ;
+    border-radius: 24px;
+}
+.bangladesh{
+
+left: 488px;
+    top: 56px;
+    width: 744px;
+    height: 290px;
+    margin: 56px 48px 56px 0 ;
+    gap: 12px;
+
+
+}
+.digital{
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #0E0E0ECC;
+}
+.aljaz{
+    width: 134px;
+    height: 40px;
+
+}
+.time{
+    left: 0;
+    top: 102px;
+    width: 744px;
+    height: 24px;
+    gap: 12px;
+    color: #0E0E0EB3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.aljaz-report{
+    left: 0;
+    top: 138px;
+    width: 744px;
+    height: 72px;
+
+    color: #0E0E0EB3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.click{ left: 0;
+    top: 242px;
+    width: 139px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #006A50FF ;
+    color: white;
+    border: #006A50FF;
 }

@@ -45,9 +45,9 @@ justify-content: center;
 align-items: center;
 }
 .btn:hover{
-    background-color: blue
+    background-color: greenyellow
     ;
-    color: white;
+    color: black;
 }
 .background{
 
@@ -232,4 +232,37 @@ height: auto;}
 .development-bar:hover{
 
     transform: translateY(-10px);
+}
+
+.speech{
+    position: absolute;
+
+    width: 1280px;
+    height: 256px;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #f9f9f9FF;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0,0,0.0.1);
+    align-items: center;
+    justify-content: flex-start;
+}
+.narration{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #0E0E0ECC;
+
+}
+.president{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+color: #0E0E0ECC;
+
 }
